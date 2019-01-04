@@ -1,0 +1,11 @@
+{% extends 'core/base.html '%}
+
+{% block title %} Portada {% endblock %}
+
+<!-- Se debe dejar en una sola linea ya que al interpretar los saltos de línea el código no se formatea correctamente -->
+{% block background%}{%load static%}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block header %}
+    <h1>Juan Pérez</h1>
+    <span class="subheading">Ingeniero Industrial</span>
+{% endblock %}
